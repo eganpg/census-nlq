@@ -1,0 +1,19 @@
+# Environment variables
+python-dotenv>=1.0.0
+
+# MCP server
+mcp>=1.0.0
+
+# Core web framework
+fastapi>=0.110.0
+uvicorn>=0.27.0
+
+# LLM providers — install whichever you're using
+anthropic>=0.25.0      # for LLM_PROVIDER=anthropic
+openai>=1.14.0         # for LLM_PROVIDER=openai
+
+# Install all at once:
+#   pip install fastapi uvicorn anthropic openai
+#
+# Or just what you need:
+#   pip install fastapi uvicorn anthropic
