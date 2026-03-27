@@ -75,6 +75,7 @@ census-nlq/
 ├── cli.py                       ← Command line interface
 ├── requirements.txt
 ├── mcp_server/
+│   ├── server.py                ← MCP server (for Claude Desktop, Claude Code, etc.)
 │   └── tools/
 │       ├── census_client.py     ← Shared Census API utilities
 │       ├── population.py        ← Population tool
